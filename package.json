@@ -1,0 +1,19 @@
+{
+    "name": "test-site",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "jest __test__/promp.test.js",
+        "test:watch": "jest --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^27.5.1"
+    },
+    "dependencies": {
+        "prettier": "^2.5.1"
+    }
+}
